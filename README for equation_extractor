@@ -1,0 +1,46 @@
+README for equation_extractor.py
+
+
+
+Additional Software Needed:
+
+Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
+Poppler (for PDF to image conversion): https://github.com/oschwartz10612/poppler-windows/releases/
+
+Usage Examples:
+Interactive Mode:
+
+          
+            
+            
+          
+          python equation_extractor.py --interactive
+      Extract from single file:
+
+          
+            
+            
+          
+          python equation_extractor.py --input document.pdf --output equations.docx
+      Extract from directory:
+
+          
+            
+            
+          
+          python equation_extractor.py --input ./documents/ --output all_equations.docx
+      Append to existing file:
+
+          
+            
+            
+          
+          python equation_extractor.py --input new_equations.pdf --output existing.docx --append
+      Export to JSON:
+
+          
+            
+            
+          
+          python equation_extractor.py --export-json equations.json
+      The program maintains a database of all extracted equations, allowing you to continuously add new equations from various sources and compile them into organized Word documents with proper categorization and ASCIIMath notation.
