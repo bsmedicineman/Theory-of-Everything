@@ -1,0 +1,3643 @@
+{
+  "meta": {
+    "title": "The Atlas of Everything",
+    "subtitle": "a navigable matrix of proven mathematics & science, grown from 1 = 1",
+    "equation_count": 77,
+    "edge_count": 194,
+    "domain_count": 20,
+    "growth_factor": 1.32,
+    "golden_angle": 2.39996
+  },
+  "domains": [
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "color": "#ffd86b",
+      "order": 0
+    },
+    {
+      "id": "arithmetic",
+      "name": "Arithmetic",
+      "color": "#ffc15e",
+      "order": 1
+    },
+    {
+      "id": "constants",
+      "name": "Constants",
+      "color": "#ffae54",
+      "order": 2
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "color": "#ff9a52",
+      "order": 3
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "color": "#ff855a",
+      "order": 4
+    },
+    {
+      "id": "trig",
+      "name": "Trigonometry",
+      "color": "#f9706e",
+      "order": 5
+    },
+    {
+      "id": "calculus",
+      "name": "Calculus",
+      "color": "#ec5f86",
+      "order": 6
+    },
+    {
+      "id": "linalg",
+      "name": "Linear Algebra",
+      "color": "#d6559b",
+      "order": 7
+    },
+    {
+      "id": "complex",
+      "name": "Complex Analysis",
+      "color": "#bb53ad",
+      "order": 8
+    },
+    {
+      "id": "numbertheory",
+      "name": "Number Theory",
+      "color": "#9c55b8",
+      "order": 9
+    },
+    {
+      "id": "probability",
+      "name": "Probability & Stats",
+      "color": "#7d5cc0",
+      "order": 10
+    },
+    {
+      "id": "information",
+      "name": "Information Theory",
+      "color": "#5f63c4",
+      "order": 11
+    },
+    {
+      "id": "mechanics",
+      "name": "Classical Mechanics",
+      "color": "#476fc6",
+      "order": 12
+    },
+    {
+      "id": "em",
+      "name": "Electromagnetism",
+      "color": "#3a82c4",
+      "order": 13
+    },
+    {
+      "id": "thermo",
+      "name": "Thermodynamics",
+      "color": "#3496bd",
+      "order": 14
+    },
+    {
+      "id": "relativity",
+      "name": "Relativity",
+      "color": "#33a8ad",
+      "order": 15
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum Mechanics",
+      "color": "#3bb89a",
+      "order": 16
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "color": "#52c486",
+      "order": 17
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "color": "#74cc77",
+      "order": 18
+    },
+    {
+      "id": "finance",
+      "name": "Finance & Economics",
+      "color": "#9bd06e",
+      "order": 19
+    }
+  ],
+  "constants": {
+    "pi": "π",
+    "e": "e",
+    "phi": "φ",
+    "i": "i",
+    "c": "c",
+    "G": "G",
+    "hbar": "ℏ",
+    "kB": "k_B",
+    "eps0": "ε₀",
+    "mu0": "μ₀",
+    "R": "R",
+    "1": "1"
+  },
+  "equations": [
+    {
+      "id": "unity",
+      "name": "Unity",
+      "domain": "foundations",
+      "stage": 0,
+      "latex": "1 = 1",
+      "plain": "1 = 1",
+      "symbols": [],
+      "constants": [
+        "1"
+      ],
+      "derives": [],
+      "desc": "The primordial axiom. All mathematics begins with identity: a thing equals itself.",
+      "T": 3,
+      "O": 0,
+      "D": 0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "domain": "foundations",
+      "stage": 1,
+      "latex": "2 = 1 + 1",
+      "plain": "2 = 1 + 1",
+      "symbols": [],
+      "constants": [
+        "1"
+      ],
+      "derives": [
+        "unity"
+      ],
+      "desc": "The first operation. Addition creates multiplicity from unity.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        0.436,
+        -32.5,
+        0.201
+      ]
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity",
+      "domain": "foundations",
+      "stage": 1,
+      "latex": "3 = 1+1+1 = 2+1 = 3\\times 1",
+      "plain": "3 = 1+1+1 = 2+1 = 3*1",
+      "symbols": [],
+      "constants": [
+        "1"
+      ],
+      "derives": [
+        "duality"
+      ],
+      "desc": "One number, three constructions: repeated addition, progression, multiplication.",
+      "T": 15,
+      "O": 2,
+      "D": 0,
+      "pos": [
+        0.312,
+        -32.5,
+        0.365
+      ]
+    },
+    {
+      "id": "quaternity",
+      "name": "Quaternity",
+      "domain": "foundations",
+      "stage": 2,
+      "latex": "4 = 2\\times 2 = 2^{2} = \\sqrt{16}",
+      "plain": "4 = 2*2 = 2^2 = sqrt(16)",
+      "symbols": [],
+      "constants": [
+        "1"
+      ],
+      "derives": [
+        "trinity"
+      ],
+      "desc": "Square numbers appear; multiplication, powers and roots are introduced as one truth.",
+      "T": 14,
+      "O": 3,
+      "D": 2,
+      "pos": [
+        0.302,
+        -25.0,
+        1.072
+      ]
+    },
+    {
+      "id": "add",
+      "name": "Addition",
+      "domain": "arithmetic",
+      "stage": 1,
+      "latex": "a + b = c",
+      "plain": "a + b = c",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "duality"
+      ],
+      "desc": "Combine two quantities into a sum.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        0.457,
+        -32.5,
+        0.148
+      ]
+    },
+    {
+      "id": "sub",
+      "name": "Subtraction",
+      "domain": "arithmetic",
+      "stage": 1,
+      "latex": "a - b = c",
+      "plain": "a - b = c",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "add"
+      ],
+      "desc": "The inverse of addition: remove one quantity from another.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        0.352,
+        -32.5,
+        0.326
+      ]
+    },
+    {
+      "id": "mul",
+      "name": "Multiplication",
+      "domain": "arithmetic",
+      "stage": 2,
+      "latex": "a \\cdot b = c",
+      "plain": "a*b = c",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "add"
+      ],
+      "desc": "Repeated addition compressed into a single operation.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        0.426,
+        -25.0,
+        1.029
+      ]
+    },
+    {
+      "id": "div",
+      "name": "Division",
+      "domain": "arithmetic",
+      "stage": 2,
+      "latex": "a / b = c",
+      "plain": "a/b = c",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "mul"
+      ],
+      "desc": "The inverse of multiplication: how many of b fit into a.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        -0.044,
+        -25.0,
+        1.113
+      ]
+    },
+    {
+      "id": "pow",
+      "name": "Exponentiation",
+      "domain": "arithmetic",
+      "stage": 3,
+      "latex": "a^{b} = c",
+      "plain": "a^b = c",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "mul"
+      ],
+      "desc": "Repeated multiplication; the first genuinely nested operation.",
+      "T": 5,
+      "O": 1,
+      "D": 1,
+      "pos": [
+        -0.885,
+        -17.5,
+        1.737
+      ]
+    },
+    {
+      "id": "root",
+      "name": "Roots",
+      "domain": "arithmetic",
+      "stage": 3,
+      "latex": "\\sqrt[n]{a} = a^{1/n}",
+      "plain": "a^(1/n)",
+      "symbols": [
+        "a",
+        "n"
+      ],
+      "constants": [],
+      "derives": [
+        "pow",
+        "div"
+      ],
+      "desc": "The inverse of a power; raising to a fractional exponent.",
+      "T": 7,
+      "O": 2,
+      "D": 2,
+      "pos": [
+        -1.531,
+        -17.5,
+        1.207
+      ]
+    },
+    {
+      "id": "phi",
+      "name": "Golden Ratio",
+      "domain": "constants",
+      "stage": 4,
+      "latex": "\\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.6180",
+      "plain": "phi = (1+sqrt(5))/2",
+      "symbols": [
+        "phi"
+      ],
+      "constants": [
+        "phi",
+        "1"
+      ],
+      "derives": [
+        "root",
+        "add",
+        "div"
+      ],
+      "desc": "The 'Life' constant: a length divided so the whole-to-large ratio equals large-to-small. Pervades growth and form.",
+      "T": 12,
+      "O": 3,
+      "D": 2,
+      "pos": [
+        2.471,
+        -10.0,
+        1.795
+      ]
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "domain": "constants",
+      "stage": 4,
+      "latex": "\\pi = \\frac{C}{d} \\approx 3.14159",
+      "plain": "pi = C/d",
+      "symbols": [
+        "C",
+        "d"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "div"
+      ],
+      "desc": "The ratio of any circle's circumference to its diameter.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        1.492,
+        -10.0,
+        2.665
+      ]
+    },
+    {
+      "id": "e",
+      "name": "Euler's Number",
+      "domain": "constants",
+      "stage": 4,
+      "latex": "e = \\lim_{n\\to\\infty}\\left(1+\\tfrac1n\\right)^{n} \\approx 2.71828",
+      "plain": "e = lim (1+1/n)^n",
+      "symbols": [
+        "n"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "pow",
+        "div"
+      ],
+      "desc": "The base of natural growth; the constant whose rate of change is itself.",
+      "T": 12,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        0.239,
+        -10.0,
+        3.045
+      ]
+    },
+    {
+      "id": "imag",
+      "name": "Imaginary Unit",
+      "domain": "constants",
+      "stage": 4,
+      "latex": "i^{2} = -1",
+      "plain": "i^2 = -1",
+      "symbols": [],
+      "constants": [
+        "i"
+      ],
+      "derives": [
+        "pow"
+      ],
+      "desc": "The square root of minus one; opens the plane of complex numbers.",
+      "T": 6,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -1.057,
+        -10.0,
+        2.865
+      ]
+    },
+    {
+      "id": "circumference",
+      "name": "Circumference",
+      "domain": "geometry",
+      "stage": 4,
+      "latex": "C = 2\\pi r",
+      "plain": "C = 2*pi*r",
+      "symbols": [
+        "C",
+        "r"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "pi",
+        "mul"
+      ],
+      "desc": "A circle's perimeter in terms of its radius.",
+      "T": 7,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        1.795,
+        -10.0,
+        2.471
+      ]
+    },
+    {
+      "id": "circlearea",
+      "name": "Area of a Circle",
+      "domain": "geometry",
+      "stage": 5,
+      "latex": "A = \\pi r^{2}",
+      "plain": "A = pi*r^2",
+      "symbols": [
+        "A",
+        "r"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "pi",
+        "pow"
+      ],
+      "desc": "The area enclosed by a circle of radius r.",
+      "T": 7,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        0.88,
+        -2.5,
+        4.425
+      ]
+    },
+    {
+      "id": "pythagoras",
+      "name": "Pythagorean Theorem",
+      "domain": "geometry",
+      "stage": 5,
+      "latex": "a^{2}+b^{2}=c^{2}",
+      "plain": "a^2 + b^2 = c^2",
+      "symbols": [
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "pow",
+        "add"
+      ],
+      "desc": "In a right triangle, the squares on the legs sum to the square on the hypotenuse.",
+      "T": 11,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -1.053,
+        -2.5,
+        4.387
+      ]
+    },
+    {
+      "id": "spherevol",
+      "name": "Volume of a Sphere",
+      "domain": "geometry",
+      "stage": 6,
+      "latex": "V = \\tfrac{4}{3}\\pi r^{3}",
+      "plain": "V = 4/3*pi*r^3",
+      "symbols": [
+        "V",
+        "r"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "pi",
+        "pow",
+        "circlearea"
+      ],
+      "desc": "The volume enclosed by a sphere; integral of circular cross-sections.",
+      "T": 11,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        -5.734,
+        5.0,
+        2.921
+      ]
+    },
+    {
+      "id": "distance",
+      "name": "Distance Formula",
+      "domain": "geometry",
+      "stage": 5,
+      "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
+      "plain": "d = sqrt((x2-x1)^2+(y2-y1)^2)",
+      "symbols": [
+        "d",
+        "x",
+        "y"
+      ],
+      "constants": [],
+      "derives": [
+        "pythagoras",
+        "root"
+      ],
+      "desc": "The straight-line distance between two points; Pythagoras in coordinates.",
+      "T": 24,
+      "O": 4,
+      "D": 3,
+      "pos": [
+        -2.793,
+        -2.5,
+        3.543
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear Equation",
+      "domain": "algebra",
+      "stage": 4,
+      "latex": "y = mx + b",
+      "plain": "y = m*x + b",
+      "symbols": [
+        "y",
+        "m",
+        "x",
+        "b"
+      ],
+      "constants": [],
+      "derives": [
+        "mul",
+        "add"
+      ],
+      "desc": "A straight line: constant slope m and intercept b.",
+      "T": 7,
+      "O": 2,
+      "D": 0,
+      "pos": [
+        0.944,
+        -10.0,
+        2.904
+      ]
+    },
+    {
+      "id": "quadratic",
+      "name": "Quadratic Formula",
+      "domain": "algebra",
+      "stage": 6,
+      "latex": "x = \\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}",
+      "plain": "x = (-b +- sqrt(b^2-4ac))/(2a)",
+      "symbols": [
+        "x",
+        "a",
+        "b",
+        "c"
+      ],
+      "constants": [],
+      "derives": [
+        "root",
+        "div",
+        "pow"
+      ],
+      "desc": "The roots of any second-degree polynomial in closed form.",
+      "T": 22,
+      "O": 5,
+      "D": 3,
+      "pos": [
+        -0.756,
+        5.0,
+        6.39
+      ]
+    },
+    {
+      "id": "binomial",
+      "name": "Binomial Theorem",
+      "domain": "algebra",
+      "stage": 7,
+      "latex": "(x+y)^{n}=\\sum_{k=0}^{n}\\binom{n}{k}x^{k}y^{n-k}",
+      "plain": "(x+y)^n = sum C(n,k) x^k y^(n-k)",
+      "symbols": [
+        "x",
+        "y",
+        "n",
+        "k"
+      ],
+      "constants": [],
+      "derives": [
+        "pow",
+        "add"
+      ],
+      "desc": "Expands a power of a sum into a weighted sum of products.",
+      "T": 25,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        -8.637,
+        12.5,
+        -2.437
+      ]
+    },
+    {
+      "id": "logdef",
+      "name": "Logarithm",
+      "domain": "algebra",
+      "stage": 6,
+      "latex": "\\log_{b}(x)=y \\iff b^{y}=x",
+      "plain": "log_b(x)=y <=> b^y=x",
+      "symbols": [
+        "x",
+        "y",
+        "b"
+      ],
+      "constants": [],
+      "derives": [
+        "pow"
+      ],
+      "desc": "The inverse of exponentiation: the power to which a base must be raised.",
+      "T": 14,
+      "O": 5,
+      "D": 2,
+      "pos": [
+        -3.362,
+        5.0,
+        5.486
+      ]
+    },
+    {
+      "id": "expgrowth",
+      "name": "Exponential Growth",
+      "domain": "algebra",
+      "stage": 6,
+      "latex": "y(t)=y_0\\,b^{t}",
+      "plain": "y = y0*b^t",
+      "symbols": [
+        "y",
+        "t",
+        "b"
+      ],
+      "constants": [],
+      "derives": [
+        "pow"
+      ],
+      "desc": "Each step multiplies the previous value; the file's J-curve from a tiny seed.",
+      "T": 8,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -5.351,
+        5.0,
+        3.575
+      ]
+    },
+    {
+      "id": "loggrowth",
+      "name": "Logarithmic Growth",
+      "domain": "algebra",
+      "stage": 6,
+      "latex": "y(t)=a\\ln(t)+y_0",
+      "plain": "y = a*ln(t)+y0",
+      "symbols": [
+        "y",
+        "t",
+        "a"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "logdef",
+        "e"
+      ],
+      "desc": "Fast rise then flattening; the file's diminishing-returns curve.",
+      "T": 11,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        -6.356,
+        5.0,
+        1.006
+      ]
+    },
+    {
+      "id": "logistic",
+      "name": "Logistic Growth",
+      "domain": "algebra",
+      "stage": 7,
+      "latex": "y(t)=\\dfrac{K}{1+e^{-r(t-t_0)}}",
+      "plain": "y = K/(1+e^(-r(t-t0)))",
+      "symbols": [
+        "y",
+        "t",
+        "K",
+        "r"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "e",
+        "expgrowth"
+      ],
+      "desc": "The middle ground: exponential early, saturating at a ceiling K.",
+      "T": 20,
+      "O": 4,
+      "D": 4,
+      "pos": [
+        -6.823,
+        12.5,
+        -5.829
+      ]
+    },
+    {
+      "id": "sincos",
+      "name": "Pythagorean Identity",
+      "domain": "trig",
+      "stage": 6,
+      "latex": "\\sin^{2}\\theta+\\cos^{2}\\theta=1",
+      "plain": "sin^2 t + cos^2 t = 1",
+      "symbols": [
+        "theta"
+      ],
+      "constants": [
+        "1"
+      ],
+      "derives": [
+        "pythagoras"
+      ],
+      "desc": "The unit circle written as an identity between sine and cosine.",
+      "T": 11,
+      "O": 4,
+      "D": 1,
+      "pos": [
+        0.0,
+        5.0,
+        6.435
+      ]
+    },
+    {
+      "id": "lawcos",
+      "name": "Law of Cosines",
+      "domain": "trig",
+      "stage": 7,
+      "latex": "c^{2}=a^{2}+b^{2}-2ab\\cos\\gamma",
+      "plain": "c^2 = a^2+b^2-2ab cos(g)",
+      "symbols": [
+        "a",
+        "b",
+        "c",
+        "gamma"
+      ],
+      "constants": [],
+      "derives": [
+        "pythagoras",
+        "sincos"
+      ],
+      "desc": "Generalises Pythagoras to any triangle.",
+      "T": 18,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        -3.757,
+        12.5,
+        8.15
+      ]
+    },
+    {
+      "id": "fourier",
+      "name": "Fourier Series",
+      "domain": "trig",
+      "stage": 9,
+      "latex": "f(x)=\\tfrac{a_0}{2}+\\sum_{n=1}^{\\infty}\\!\\big(a_n\\cos nx+b_n\\sin nx\\big)",
+      "plain": "f = a0/2 + sum(an cos nx + bn sin nx)",
+      "symbols": [
+        "f",
+        "x",
+        "n"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "sincos",
+        "integral"
+      ],
+      "desc": "Any periodic signal is a sum of sines and cosines.",
+      "T": 17,
+      "O": 5,
+      "D": 1,
+      "pos": [
+        -12.737,
+        27.5,
+        10.877
+      ]
+    },
+    {
+      "id": "limit",
+      "name": "Limit",
+      "domain": "calculus",
+      "stage": 7,
+      "latex": "\\lim_{x\\to a}f(x)=L",
+      "plain": "lim x->a f(x) = L",
+      "symbols": [
+        "x",
+        "a",
+        "f",
+        "L"
+      ],
+      "constants": [],
+      "derives": [
+        "div"
+      ],
+      "desc": "The value a function approaches; the foundation of calculus.",
+      "T": 11,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        -2.773,
+        12.5,
+        8.535
+      ]
+    },
+    {
+      "id": "derivative",
+      "name": "Derivative",
+      "domain": "calculus",
+      "stage": 8,
+      "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+      "plain": "f'(x)=lim (f(x+h)-f(x))/h",
+      "symbols": [
+        "f",
+        "x",
+        "h"
+      ],
+      "constants": [],
+      "derives": [
+        "limit",
+        "div"
+      ],
+      "desc": "The instantaneous rate of change of a function.",
+      "T": 22,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        -8.367,
+        20.0,
+        9.051
+      ]
+    },
+    {
+      "id": "integral",
+      "name": "Integral",
+      "domain": "calculus",
+      "stage": 8,
+      "latex": "\\int_a^b f(x)\\,dx",
+      "plain": "integral_a^b f(x) dx",
+      "symbols": [
+        "f",
+        "x",
+        "a",
+        "b"
+      ],
+      "constants": [],
+      "derives": [
+        "limit",
+        "add"
+      ],
+      "desc": "The accumulated area under a curve; a limit of sums.",
+      "T": 8,
+      "O": 2,
+      "D": 2,
+      "pos": [
+        -11.388,
+        20.0,
+        4.716
+      ]
+    },
+    {
+      "id": "ftc",
+      "name": "Fundamental Theorem of Calculus",
+      "domain": "calculus",
+      "stage": 9,
+      "latex": "\\int_a^b f'(x)\\,dx = f(b)-f(a)",
+      "plain": "integral f'(x) dx = f(b)-f(a)",
+      "symbols": [
+        "f",
+        "x",
+        "a",
+        "b"
+      ],
+      "constants": [],
+      "derives": [
+        "derivative",
+        "integral"
+      ],
+      "desc": "Differentiation and integration are inverse operations.",
+      "T": 17,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -16.737,
+        27.5,
+        -0.659
+      ]
+    },
+    {
+      "id": "taylor",
+      "name": "Taylor Series",
+      "domain": "calculus",
+      "stage": 9,
+      "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^{n}",
+      "plain": "f(x)=sum f^(n)(a)/n! (x-a)^n",
+      "symbols": [
+        "f",
+        "x",
+        "a",
+        "n"
+      ],
+      "constants": [],
+      "derives": [
+        "derivative",
+        "pow"
+      ],
+      "desc": "Approximate any smooth function as an infinite polynomial.",
+      "T": 24,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        -14.923,
+        27.5,
+        -7.606
+      ]
+    },
+    {
+      "id": "eulerexp",
+      "name": "Series for e^x",
+      "domain": "calculus",
+      "stage": 9,
+      "latex": "e^{x}=\\sum_{n=0}^{\\infty}\\frac{x^{n}}{n!}",
+      "plain": "e^x = sum x^n/n!",
+      "symbols": [
+        "x",
+        "n"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "e",
+        "taylor"
+      ],
+      "desc": "The exponential function as its own Taylor series; it equals its own derivative.",
+      "T": 11,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        -10.368,
+        27.5,
+        -13.155
+      ]
+    },
+    {
+      "id": "matmul",
+      "name": "Matrix Multiplication",
+      "domain": "linalg",
+      "stage": 8,
+      "latex": "(AB)_{ij}=\\sum_k A_{ik}B_{kj}",
+      "plain": "(AB)_ij = sum_k A_ik B_kj",
+      "symbols": [
+        "A",
+        "B",
+        "i",
+        "j",
+        "k"
+      ],
+      "constants": [],
+      "derives": [
+        "mul",
+        "add"
+      ],
+      "desc": "Composition of linear transformations as a sum of products.",
+      "T": 8,
+      "O": 1,
+      "D": 1,
+      "pos": [
+        -7.245,
+        20.0,
+        9.972
+      ]
+    },
+    {
+      "id": "determinant",
+      "name": "Determinant (2x2)",
+      "domain": "linalg",
+      "stage": 8,
+      "latex": "\\det\\!\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}=ad-bc",
+      "plain": "det = ad - bc",
+      "symbols": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "constants": [],
+      "derives": [
+        "mul",
+        "sub"
+      ],
+      "desc": "The signed area/volume scaling factor of a linear map.",
+      "T": 5,
+      "O": 2,
+      "D": 0,
+      "pos": [
+        -10.754,
+        20.0,
+        6.022
+      ]
+    },
+    {
+      "id": "eigen",
+      "name": "Eigenvalue Equation",
+      "domain": "linalg",
+      "stage": 9,
+      "latex": "A\\mathbf{v}=\\lambda\\mathbf{v}",
+      "plain": "A v = lambda v",
+      "symbols": [
+        "A",
+        "v",
+        "lambda"
+      ],
+      "constants": [],
+      "derives": [
+        "matmul"
+      ],
+      "desc": "Directions a transformation only stretches; the backbone of quantum mechanics and PCA.",
+      "T": 5,
+      "O": 0,
+      "D": 0,
+      "pos": [
+        -15.714,
+        27.5,
+        -5.799
+      ]
+    },
+    {
+      "id": "dotproduct",
+      "name": "Dot Product",
+      "domain": "linalg",
+      "stage": 8,
+      "latex": "\\mathbf{a}\\cdot\\mathbf{b}=\\|a\\|\\,\\|b\\|\\cos\\theta",
+      "plain": "a.b = |a||b| cos(t)",
+      "symbols": [
+        "a",
+        "b",
+        "theta"
+      ],
+      "constants": [],
+      "derives": [
+        "mul",
+        "sincos"
+      ],
+      "desc": "Projects one vector onto another; links algebra to angle.",
+      "T": 14,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -12.288,
+        20.0,
+        0.966
+      ]
+    },
+    {
+      "id": "eulerformula",
+      "name": "Euler's Formula",
+      "domain": "complex",
+      "stage": 9,
+      "latex": "e^{i\\theta}=\\cos\\theta+i\\sin\\theta",
+      "plain": "e^(i t) = cos t + i sin t",
+      "symbols": [
+        "theta"
+      ],
+      "constants": [
+        "e",
+        "i"
+      ],
+      "derives": [
+        "e",
+        "imag",
+        "sincos",
+        "eulerexp"
+      ],
+      "desc": "Rotation in the complex plane; ties exponential growth to circular motion.",
+      "T": 13,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        -13.551,
+        27.5,
+        9.845
+      ]
+    },
+    {
+      "id": "euleridentity",
+      "name": "Euler's Identity",
+      "domain": "complex",
+      "stage": 10,
+      "latex": "e^{i\\pi}+1=0",
+      "plain": "e^(i pi) + 1 = 0",
+      "symbols": [],
+      "constants": [
+        "e",
+        "i",
+        "pi",
+        "1"
+      ],
+      "derives": [
+        "eulerformula",
+        "pi"
+      ],
+      "desc": "The 'mystery' equation: e, i, pi, 1 and 0 in one line.",
+      "T": 10,
+      "O": 2,
+      "D": 2,
+      "pos": [
+        -22.156,
+        35.0,
+        4.406
+      ]
+    },
+    {
+      "id": "cauchy",
+      "name": "Cauchy Integral Formula",
+      "domain": "complex",
+      "stage": 11,
+      "latex": "f(a)=\\frac{1}{2\\pi i}\\oint\\frac{f(z)}{z-a}\\,dz",
+      "plain": "f(a)=1/(2 pi i) oint f(z)/(z-a) dz",
+      "symbols": [
+        "f",
+        "a",
+        "z"
+      ],
+      "constants": [
+        "pi",
+        "i"
+      ],
+      "derives": [
+        "pi",
+        "imag",
+        "integral"
+      ],
+      "desc": "A holomorphic function's value is fixed by its boundary.",
+      "T": 24,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        -29.461,
+        42.5,
+        -7.074
+      ]
+    },
+    {
+      "id": "primecount",
+      "name": "Prime Number Theorem",
+      "domain": "numbertheory",
+      "stage": 10,
+      "latex": "\\pi(x)\\sim\\frac{x}{\\ln x}",
+      "plain": "pi(x) ~ x/ln(x)",
+      "symbols": [
+        "x"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "e",
+        "logdef",
+        "div"
+      ],
+      "desc": "Primes thin out like x over its natural logarithm.",
+      "T": 11,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -22.433,
+        35.0,
+        -2.656
+      ]
+    },
+    {
+      "id": "fib",
+      "name": "Fibonacci & Golden Ratio",
+      "domain": "numbertheory",
+      "stage": 8,
+      "latex": "F_n=\\frac{\\varphi^{n}-(-\\varphi)^{-n}}{\\sqrt5}",
+      "plain": "F_n = (phi^n - (-phi)^-n)/sqrt(5)",
+      "symbols": [
+        "n"
+      ],
+      "constants": [
+        "phi"
+      ],
+      "derives": [
+        "phi",
+        "pow"
+      ],
+      "desc": "Each term is the sum of the previous two; ratios converge to phi.",
+      "T": 20,
+      "O": 4,
+      "D": 3,
+      "pos": [
+        -11.722,
+        20.0,
+        3.809
+      ]
+    },
+    {
+      "id": "zeta",
+      "name": "Riemann Zeta Function",
+      "domain": "numbertheory",
+      "stage": 11,
+      "latex": "\\zeta(s)=\\sum_{n=1}^{\\infty}\\frac{1}{n^{s}}",
+      "plain": "zeta(s)=sum 1/n^s",
+      "symbols": [
+        "s",
+        "n"
+      ],
+      "constants": [
+        "pi"
+      ],
+      "derives": [
+        "pow",
+        "div",
+        "primecount"
+      ],
+      "desc": "Encodes the distribution of primes; its zeros are mathematics' deepest open question.",
+      "T": 11,
+      "O": 3,
+      "D": 2,
+      "pos": [
+        -25.833,
+        42.5,
+        -15.832
+      ]
+    },
+    {
+      "id": "gaussian",
+      "name": "Normal Distribution",
+      "domain": "probability",
+      "stage": 9,
+      "latex": "f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}",
+      "plain": "f(x)=1/(s sqrt(2 pi)) e^(-(x-mu)^2/2 s^2)",
+      "symbols": [
+        "x",
+        "mu",
+        "sigma"
+      ],
+      "constants": [
+        "pi",
+        "e"
+      ],
+      "derives": [
+        "pi",
+        "e",
+        "pow"
+      ],
+      "desc": "The bell curve: sums of many independent effects converge to it.",
+      "T": 32,
+      "O": 4,
+      "D": 3,
+      "pos": [
+        -10.877,
+        27.5,
+        -12.737
+      ]
+    },
+    {
+      "id": "bayes",
+      "name": "Bayes' Theorem",
+      "domain": "probability",
+      "stage": 8,
+      "latex": "P(A\\mid B)=\\frac{P(B\\mid A)\\,P(A)}{P(B)}",
+      "plain": "P(A|B)=P(B|A)P(A)/P(B)",
+      "symbols": [
+        "A",
+        "B"
+      ],
+      "constants": [],
+      "derives": [
+        "div",
+        "mul"
+      ],
+      "desc": "How evidence updates belief; the engine of inference and machine learning.",
+      "T": 22,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -12.326,
+        20.0,
+        0.0
+      ]
+    },
+    {
+      "id": "expectation",
+      "name": "Expected Value",
+      "domain": "probability",
+      "stage": 8,
+      "latex": "E[X]=\\sum_i x_i\\,p_i",
+      "plain": "E[X]=sum x_i p_i",
+      "symbols": [
+        "X",
+        "x",
+        "p"
+      ],
+      "constants": [],
+      "derives": [
+        "mul",
+        "add"
+      ],
+      "desc": "The long-run average of a random quantity.",
+      "T": 8,
+      "O": 1,
+      "D": 1,
+      "pos": [
+        -11.193,
+        20.0,
+        -5.16
+      ]
+    },
+    {
+      "id": "shannon",
+      "name": "Shannon Entropy",
+      "domain": "information",
+      "stage": 10,
+      "latex": "H=-\\sum_i p_i\\log_2 p_i",
+      "plain": "H = -sum p_i log2(p_i)",
+      "symbols": [
+        "H",
+        "p"
+      ],
+      "constants": [],
+      "derives": [
+        "logdef",
+        "expectation"
+      ],
+      "desc": "The average information content of a message; the limit of compression.",
+      "T": 10,
+      "O": 4,
+      "D": 1,
+      "pos": [
+        -21.484,
+        35.0,
+        -6.981
+      ]
+    },
+    {
+      "id": "channel",
+      "name": "Channel Capacity",
+      "domain": "information",
+      "stage": 11,
+      "latex": "C=B\\log_2\\!\\left(1+\\frac{S}{N}\\right)",
+      "plain": "C = B log2(1 + S/N)",
+      "symbols": [
+        "C",
+        "B",
+        "S",
+        "N"
+      ],
+      "constants": [],
+      "derives": [
+        "logdef",
+        "shannon"
+      ],
+      "desc": "The maximum error-free data rate of a noisy channel.",
+      "T": 12,
+      "O": 4,
+      "D": 1,
+      "pos": [
+        -22.248,
+        42.5,
+        -20.567
+      ]
+    },
+    {
+      "id": "newton2",
+      "name": "Newton's Second Law",
+      "domain": "mechanics",
+      "stage": 7,
+      "latex": "\\mathbf{F}=m\\mathbf{a}",
+      "plain": "F = m*a",
+      "symbols": [
+        "F",
+        "m",
+        "a"
+      ],
+      "constants": [],
+      "derives": [
+        "mul"
+      ],
+      "desc": "Force equals mass times acceleration; the law of motion.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        -7.26,
+        12.5,
+        -5.275
+      ]
+    },
+    {
+      "id": "gravity",
+      "name": "Newton's Gravitation",
+      "domain": "mechanics",
+      "stage": 8,
+      "latex": "F=G\\frac{m_1 m_2}{r^{2}}",
+      "plain": "F = G m1 m2 / r^2",
+      "symbols": [
+        "F",
+        "m",
+        "r"
+      ],
+      "constants": [
+        "G"
+      ],
+      "derives": [
+        "G",
+        "newton2",
+        "div",
+        "pow"
+      ],
+      "desc": "Every mass attracts every other, falling off with the square of distance.",
+      "T": 11,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -0.966,
+        20.0,
+        -12.288
+      ]
+    },
+    {
+      "id": "kinetic",
+      "name": "Kinetic Energy",
+      "domain": "mechanics",
+      "stage": 7,
+      "latex": "E_k=\\tfrac12 m v^{2}",
+      "plain": "E = 1/2 m v^2",
+      "symbols": [
+        "E",
+        "m",
+        "v"
+      ],
+      "constants": [],
+      "derives": [
+        "pow",
+        "mul"
+      ],
+      "desc": "The energy of motion; quadratic in speed.",
+      "T": 9,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        -4.385,
+        12.5,
+        -7.83
+      ]
+    },
+    {
+      "id": "lagrangian",
+      "name": "Euler-Lagrange Equation",
+      "domain": "mechanics",
+      "stage": 10,
+      "latex": "\\frac{d}{dt}\\frac{\\partial L}{\\partial \\dot q}-\\frac{\\partial L}{\\partial q}=0",
+      "plain": "d/dt (dL/dq') - dL/dq = 0",
+      "symbols": [
+        "L",
+        "q",
+        "t"
+      ],
+      "constants": [],
+      "derives": [
+        "derivative",
+        "newton2"
+      ],
+      "desc": "Nature follows the path of stationary action; reframes all of mechanics.",
+      "T": 15,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        7.82,
+        35.0,
+        -21.193
+      ]
+    },
+    {
+      "id": "hamiltonian",
+      "name": "Hamilton's Equations",
+      "domain": "mechanics",
+      "stage": 10,
+      "latex": "\\dot q=\\frac{\\partial H}{\\partial p},\\;\\dot p=-\\frac{\\partial H}{\\partial q}",
+      "plain": "q'=dH/dp, p'=-dH/dq",
+      "symbols": [
+        "H",
+        "q",
+        "p"
+      ],
+      "constants": [],
+      "derives": [
+        "lagrangian",
+        "derivative"
+      ],
+      "desc": "Energy as the generator of motion; the bridge to quantum mechanics.",
+      "T": 14,
+      "O": 2,
+      "D": 0,
+      "pos": [
+        15.975,
+        35.0,
+        -15.972
+      ]
+    },
+    {
+      "id": "coulomb",
+      "name": "Coulomb's Law",
+      "domain": "em",
+      "stage": 8,
+      "latex": "F=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1 q_2}{r^{2}}",
+      "plain": "F = 1/(4 pi eps0) q1 q2 / r^2",
+      "symbols": [
+        "F",
+        "q",
+        "r"
+      ],
+      "constants": [
+        "pi",
+        "eps0"
+      ],
+      "derives": [
+        "pi",
+        "eps0",
+        "gravity"
+      ],
+      "desc": "The electric force between charges; same inverse-square form as gravity.",
+      "T": 18,
+      "O": 2,
+      "D": 2,
+      "pos": [
+        -7.245,
+        20.0,
+        -9.972
+      ]
+    },
+    {
+      "id": "maxwell",
+      "name": "Maxwell's Equations",
+      "domain": "em",
+      "stage": 11,
+      "latex": "\\nabla\\!\\cdot\\!\\mathbf{E}=\\tfrac{\\rho}{\\varepsilon_0},\\;\\nabla\\!\\times\\!\\mathbf{B}=\\mu_0\\mathbf{J}+\\mu_0\\varepsilon_0\\partial_t\\mathbf{E}",
+      "plain": "div E = rho/eps0 ; curl B = mu0 J + mu0 eps0 dE/dt",
+      "symbols": [
+        "E",
+        "B",
+        "rho",
+        "J"
+      ],
+      "constants": [
+        "eps0",
+        "mu0"
+      ],
+      "derives": [
+        "eps0",
+        "mu0",
+        "coulomb",
+        "derivative"
+      ],
+      "desc": "Four equations unifying electricity, magnetism and light.",
+      "T": 22,
+      "O": 2,
+      "D": 0,
+      "pos": [
+        -5.91,
+        42.5,
+        -29.716
+      ]
+    },
+    {
+      "id": "lightspeed",
+      "name": "Speed of Light",
+      "domain": "em",
+      "stage": 11,
+      "latex": "c=\\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}}",
+      "plain": "c = 1/sqrt(mu0 eps0)",
+      "symbols": [],
+      "constants": [
+        "c",
+        "mu0",
+        "eps0"
+      ],
+      "derives": [
+        "c",
+        "maxwell",
+        "root"
+      ],
+      "desc": "Light's speed emerges from the constants of electromagnetism alone.",
+      "T": 11,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        7.074,
+        42.5,
+        -29.461
+      ]
+    },
+    {
+      "id": "idealgas",
+      "name": "Ideal Gas Law",
+      "domain": "thermo",
+      "stage": 7,
+      "latex": "PV=nRT",
+      "plain": "P V = n R T",
+      "symbols": [
+        "P",
+        "V",
+        "n",
+        "T"
+      ],
+      "constants": [
+        "R"
+      ],
+      "derives": [
+        "R",
+        "mul"
+      ],
+      "desc": "Pressure, volume and temperature of an ideal gas are linked by one relation.",
+      "T": 6,
+      "O": 0,
+      "D": 0,
+      "pos": [
+        -2.773,
+        12.5,
+        -8.535
+      ]
+    },
+    {
+      "id": "entropy",
+      "name": "Boltzmann Entropy",
+      "domain": "thermo",
+      "stage": 10,
+      "latex": "S=k_B\\ln W",
+      "plain": "S = kB ln(W)",
+      "symbols": [
+        "S",
+        "W"
+      ],
+      "constants": [
+        "kB",
+        "e"
+      ],
+      "derives": [
+        "kB",
+        "e",
+        "logdef"
+      ],
+      "desc": "Entropy counts the microstates of a system; links the unseen to the measurable.",
+      "T": 7,
+      "O": 1,
+      "D": 1,
+      "pos": [
+        11.804,
+        35.0,
+        -19.26
+      ]
+    },
+    {
+      "id": "firstlaw",
+      "name": "First Law of Thermodynamics",
+      "domain": "thermo",
+      "stage": 8,
+      "latex": "dU=\\delta Q-\\delta W",
+      "plain": "dU = dQ - dW",
+      "symbols": [
+        "U",
+        "Q",
+        "W"
+      ],
+      "constants": [],
+      "derives": [
+        "sub",
+        "kinetic"
+      ],
+      "desc": "Energy is conserved: internal energy changes by heat in minus work out.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        1.449,
+        20.0,
+        -12.24
+      ]
+    },
+    {
+      "id": "massenergy",
+      "name": "Mass-Energy Equivalence",
+      "domain": "relativity",
+      "stage": 10,
+      "latex": "E=mc^{2}",
+      "plain": "E = m c^2",
+      "symbols": [
+        "E",
+        "m"
+      ],
+      "constants": [
+        "c"
+      ],
+      "derives": [
+        "c",
+        "kinetic",
+        "pow"
+      ],
+      "desc": "Mass is concentrated energy; the most famous equation in physics.",
+      "T": 6,
+      "O": 1,
+      "D": 1,
+      "pos": [
+        -0.0,
+        35.0,
+        -22.59
+      ]
+    },
+    {
+      "id": "lorentz",
+      "name": "Lorentz Factor",
+      "domain": "relativity",
+      "stage": 10,
+      "latex": "\\gamma=\\frac{1}{\\sqrt{1-v^{2}/c^{2}}}",
+      "plain": "gamma = 1/sqrt(1 - v^2/c^2)",
+      "symbols": [
+        "gamma",
+        "v"
+      ],
+      "constants": [
+        "c",
+        "1"
+      ],
+      "derives": [
+        "c",
+        "root",
+        "div"
+      ],
+      "desc": "Time and length distort as speeds approach light; the heart of special relativity.",
+      "T": 16,
+      "O": 4,
+      "D": 2,
+      "pos": [
+        9.458,
+        35.0,
+        -20.514
+      ]
+    },
+    {
+      "id": "einstein",
+      "name": "Einstein Field Equations",
+      "domain": "relativity",
+      "stage": 12,
+      "latex": "G_{\\mu\\nu}+\\Lambda g_{\\mu\\nu}=\\frac{8\\pi G}{c^{4}}T_{\\mu\\nu}",
+      "plain": "G_uv + L g_uv = 8 pi G / c^4 T_uv",
+      "symbols": [
+        "G",
+        "T",
+        "g"
+      ],
+      "constants": [
+        "pi",
+        "G",
+        "c"
+      ],
+      "derives": [
+        "pi",
+        "G",
+        "c",
+        "massenergy",
+        "gravity"
+      ],
+      "desc": "Matter tells spacetime how to curve; spacetime tells matter how to move.",
+      "T": 13,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        30.778,
+        50.0,
+        -26.284
+      ]
+    },
+    {
+      "id": "planck",
+      "name": "Planck Relation",
+      "domain": "quantum",
+      "stage": 9,
+      "latex": "E=h\\nu=\\hbar\\omega",
+      "plain": "E = h nu = hbar omega",
+      "symbols": [
+        "E",
+        "nu",
+        "omega"
+      ],
+      "constants": [
+        "hbar"
+      ],
+      "derives": [
+        "hbar",
+        "massenergy"
+      ],
+      "desc": "Energy comes in discrete packets proportional to frequency.",
+      "T": 7,
+      "O": 0,
+      "D": 0,
+      "pos": [
+        5.176,
+        27.5,
+        -15.93
+      ]
+    },
+    {
+      "id": "debroglie",
+      "name": "de Broglie Wavelength",
+      "domain": "quantum",
+      "stage": 10,
+      "latex": "\\lambda=\\frac{h}{p}",
+      "plain": "lambda = h/p",
+      "symbols": [
+        "lambda",
+        "p"
+      ],
+      "constants": [
+        "hbar"
+      ],
+      "derives": [
+        "hbar",
+        "planck",
+        "div"
+      ],
+      "desc": "Every particle is also a wave, with wavelength set by its momentum.",
+      "T": 5,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        15.334,
+        35.0,
+        -16.588
+      ]
+    },
+    {
+      "id": "schrodinger",
+      "name": "Schrodinger Equation",
+      "domain": "quantum",
+      "stage": 12,
+      "latex": "i\\hbar\\,\\partial_t\\psi=\\hat H\\psi",
+      "plain": "i hbar dpsi/dt = H psi",
+      "symbols": [
+        "psi",
+        "H",
+        "t"
+      ],
+      "constants": [
+        "i",
+        "hbar"
+      ],
+      "derives": [
+        "i",
+        "hbar",
+        "imag",
+        "hamiltonian",
+        "eigen",
+        "derivative"
+      ],
+      "desc": "The wavefunction's evolution; the master equation of the quantum world.",
+      "T": 8,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        40.442,
+        50.0,
+        1.592
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "name": "Heisenberg Uncertainty",
+      "domain": "quantum",
+      "stage": 11,
+      "latex": "\\Delta x\\,\\Delta p\\ge\\frac{\\hbar}{2}",
+      "plain": "dx dp >= hbar/2",
+      "symbols": [
+        "x",
+        "p"
+      ],
+      "constants": [
+        "hbar"
+      ],
+      "derives": [
+        "hbar",
+        "debroglie"
+      ],
+      "desc": "Position and momentum cannot both be sharp; a hard limit on knowledge.",
+      "T": 7,
+      "O": 3,
+      "D": 0,
+      "pos": [
+        27.993,
+        42.5,
+        -11.593
+      ]
+    },
+    {
+      "id": "arrhenius",
+      "name": "Arrhenius Equation",
+      "domain": "chemistry",
+      "stage": 9,
+      "latex": "k=A\\,e^{-E_a/(RT)}",
+      "plain": "k = A e^(-Ea/(R T))",
+      "symbols": [
+        "k",
+        "A",
+        "T"
+      ],
+      "constants": [
+        "e",
+        "R"
+      ],
+      "derives": [
+        "e",
+        "R",
+        "expgrowth"
+      ],
+      "desc": "Reaction rate rises exponentially with temperature.",
+      "T": 14,
+      "O": 3,
+      "D": 3,
+      "pos": [
+        9.845,
+        27.5,
+        -13.551
+      ]
+    },
+    {
+      "id": "nernst",
+      "name": "Nernst Equation",
+      "domain": "chemistry",
+      "stage": 10,
+      "latex": "E=E^{0}-\\frac{RT}{nF}\\ln Q",
+      "plain": "E = E0 - (R T/n F) ln Q",
+      "symbols": [
+        "E",
+        "T",
+        "n",
+        "Q"
+      ],
+      "constants": [
+        "e",
+        "R"
+      ],
+      "derives": [
+        "e",
+        "R",
+        "logdef",
+        "entropy"
+      ],
+      "desc": "The voltage of an electrochemical cell from concentrations.",
+      "T": 14,
+      "O": 3,
+      "D": 1,
+      "pos": [
+        22.52,
+        35.0,
+        -1.771
+      ]
+    },
+    {
+      "id": "gibbs",
+      "name": "Gibbs Free Energy",
+      "domain": "chemistry",
+      "stage": 9,
+      "latex": "\\Delta G=\\Delta H-T\\Delta S",
+      "plain": "dG = dH - T dS",
+      "symbols": [
+        "G",
+        "H",
+        "S",
+        "T"
+      ],
+      "constants": [],
+      "derives": [
+        "entropy",
+        "firstlaw",
+        "sub"
+      ],
+      "desc": "Predicts whether a reaction proceeds; balances energy against entropy.",
+      "T": 6,
+      "O": 1,
+      "D": 0,
+      "pos": [
+        14.614,
+        27.5,
+        -8.184
+      ]
+    },
+    {
+      "id": "hardyweinberg",
+      "name": "Hardy-Weinberg Principle",
+      "domain": "biology",
+      "stage": 8,
+      "latex": "p^{2}+2pq+q^{2}=1",
+      "plain": "p^2 + 2pq + q^2 = 1",
+      "symbols": [
+        "p",
+        "q"
+      ],
+      "constants": [
+        "1"
+      ],
+      "derives": [
+        "binomial",
+        "pow"
+      ],
+      "desc": "Allele frequencies stay constant across generations without selection.",
+      "T": 12,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        9.972,
+        20.0,
+        -7.245
+      ]
+    },
+    {
+      "id": "michaelis",
+      "name": "Michaelis-Menten Kinetics",
+      "domain": "biology",
+      "stage": 9,
+      "latex": "v=\\frac{V_{\\max}[S]}{K_m+[S]}",
+      "plain": "v = Vmax [S]/(Km + [S])",
+      "symbols": [
+        "v",
+        "S"
+      ],
+      "constants": [],
+      "derives": [
+        "div",
+        "logistic"
+      ],
+      "desc": "Enzyme reaction rate saturates as substrate increases.",
+      "T": 14,
+      "O": 2,
+      "D": 2,
+      "pos": [
+        16.287,
+        27.5,
+        3.911
+      ]
+    },
+    {
+      "id": "hodgkin",
+      "name": "Logistic Population Model",
+      "domain": "biology",
+      "stage": 8,
+      "latex": "\\frac{dN}{dt}=rN\\!\\left(1-\\frac{N}{K}\\right)",
+      "plain": "dN/dt = r N (1 - N/K)",
+      "symbols": [
+        "N",
+        "t",
+        "r",
+        "K"
+      ],
+      "constants": [],
+      "derives": [
+        "logistic",
+        "derivative"
+      ],
+      "desc": "Population grows fast then levels at the carrying capacity K.",
+      "T": 13,
+      "O": 2,
+      "D": 1,
+      "pos": [
+        12.089,
+        20.0,
+        -2.404
+      ]
+    },
+    {
+      "id": "compound",
+      "name": "Compound Interest",
+      "domain": "finance",
+      "stage": 6,
+      "latex": "A=P\\!\\left(1+\\tfrac{r}{n}\\right)^{nt}",
+      "plain": "A = P(1 + r/n)^(nt)",
+      "symbols": [
+        "A",
+        "P",
+        "r",
+        "n",
+        "t"
+      ],
+      "constants": [],
+      "derives": [
+        "pow",
+        "expgrowth"
+      ],
+      "desc": "Money grows exponentially as interest earns interest.",
+      "T": 14,
+      "O": 3,
+      "D": 2,
+      "pos": [
+        6.12,
+        5.0,
+        -1.988
+      ]
+    },
+    {
+      "id": "contcompound",
+      "name": "Continuous Compounding",
+      "domain": "finance",
+      "stage": 7,
+      "latex": "A=Pe^{rt}",
+      "plain": "A = P e^(r t)",
+      "symbols": [
+        "A",
+        "P",
+        "r",
+        "t"
+      ],
+      "constants": [
+        "e"
+      ],
+      "derives": [
+        "e",
+        "compound",
+        "eulerexp"
+      ],
+      "desc": "The limit of compounding infinitely often; pure exponential growth.",
+      "T": 9,
+      "O": 1,
+      "D": 2,
+      "pos": [
+        8.912,
+        12.5,
+        1.055
+      ]
+    },
+    {
+      "id": "blackscholes",
+      "name": "Black-Scholes Equation",
+      "domain": "finance",
+      "stage": 12,
+      "latex": "\\partial_t V+\\tfrac12\\sigma^2 S^2\\partial_{SS}V+rS\\partial_S V-rV=0",
+      "plain": "dV/dt + 1/2 s^2 S^2 d2V/dS2 + r S dV/dS - rV = 0",
+      "symbols": [
+        "V",
+        "S",
+        "t",
+        "r",
+        "sigma"
+      ],
+      "constants": [],
+      "derives": [
+        "derivative",
+        "gaussian",
+        "contcompound"
+      ],
+      "desc": "Prices an option by treating risk as diffusion; born from the heat equation.",
+      "T": 29,
+      "O": 4,
+      "D": 1,
+      "pos": [
+        34.509,
+        50.0,
+        21.149
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "unity",
+      "target": "duality",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "duality",
+      "target": "trinity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "trinity",
+      "target": "quaternity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "duality",
+      "target": "add",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "sub",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "mul",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "div",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "pow",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "root",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "root",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "root",
+      "target": "phi",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "phi",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "phi",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "pi",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "e",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "e",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "imag",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "circumference",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "circumference",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "circlearea",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "circlearea",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "pythagoras",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "pythagoras",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "spherevol",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "spherevol",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "circlearea",
+      "target": "spherevol",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pythagoras",
+      "target": "distance",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "root",
+      "target": "distance",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "linear",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "linear",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "root",
+      "target": "quadratic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "quadratic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "quadratic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "binomial",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "binomial",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "logdef",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "expgrowth",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "loggrowth",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "loggrowth",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "logistic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "expgrowth",
+      "target": "logistic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pythagoras",
+      "target": "sincos",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pythagoras",
+      "target": "lawcos",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sincos",
+      "target": "lawcos",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sincos",
+      "target": "fourier",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "integral",
+      "target": "fourier",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "limit",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "limit",
+      "target": "derivative",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "derivative",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "limit",
+      "target": "integral",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "integral",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "ftc",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "integral",
+      "target": "ftc",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "taylor",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "taylor",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "eulerexp",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "taylor",
+      "target": "eulerexp",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "matmul",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "matmul",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "determinant",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sub",
+      "target": "determinant",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "matmul",
+      "target": "eigen",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "dotproduct",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sincos",
+      "target": "dotproduct",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "eulerformula",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "imag",
+      "target": "eulerformula",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sincos",
+      "target": "eulerformula",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "eulerexp",
+      "target": "eulerformula",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "eulerformula",
+      "target": "euleridentity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "euleridentity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "cauchy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "imag",
+      "target": "cauchy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "integral",
+      "target": "cauchy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "primecount",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "primecount",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "primecount",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "phi",
+      "target": "fib",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "fib",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "zeta",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "zeta",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "primecount",
+      "target": "zeta",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "gaussian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "gaussian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "gaussian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "bayes",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "bayes",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "expectation",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "add",
+      "target": "expectation",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "shannon",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "expectation",
+      "target": "shannon",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "channel",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "shannon",
+      "target": "channel",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "newton2",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "newton2",
+      "target": "gravity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "gravity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "gravity",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "kinetic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "kinetic",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "lagrangian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "newton2",
+      "target": "lagrangian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "lagrangian",
+      "target": "hamiltonian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "hamiltonian",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "coulomb",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "gravity",
+      "target": "coulomb",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "coulomb",
+      "target": "maxwell",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "maxwell",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "maxwell",
+      "target": "lightspeed",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "root",
+      "target": "lightspeed",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "mul",
+      "target": "idealgas",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "entropy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "entropy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sub",
+      "target": "firstlaw",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "kinetic",
+      "target": "firstlaw",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "kinetic",
+      "target": "massenergy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "massenergy",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "root",
+      "target": "lorentz",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "lorentz",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "einstein",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "massenergy",
+      "target": "einstein",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "gravity",
+      "target": "einstein",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "massenergy",
+      "target": "planck",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "planck",
+      "target": "debroglie",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "debroglie",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "imag",
+      "target": "schrodinger",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "hamiltonian",
+      "target": "schrodinger",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "eigen",
+      "target": "schrodinger",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "schrodinger",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "debroglie",
+      "target": "uncertainty",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "arrhenius",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "expgrowth",
+      "target": "arrhenius",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "nernst",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logdef",
+      "target": "nernst",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "entropy",
+      "target": "nernst",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "entropy",
+      "target": "gibbs",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "firstlaw",
+      "target": "gibbs",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "sub",
+      "target": "gibbs",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "binomial",
+      "target": "hardyweinberg",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "hardyweinberg",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "div",
+      "target": "michaelis",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logistic",
+      "target": "michaelis",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "logistic",
+      "target": "hodgkin",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "hodgkin",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pow",
+      "target": "compound",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "expgrowth",
+      "target": "compound",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "e",
+      "target": "contcompound",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "compound",
+      "target": "contcompound",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "eulerexp",
+      "target": "contcompound",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "derivative",
+      "target": "blackscholes",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "gaussian",
+      "target": "blackscholes",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "contcompound",
+      "target": "blackscholes",
+      "kind": "lineage",
+      "label": ""
+    },
+    {
+      "source": "pi",
+      "target": "circumference",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "circumference",
+      "target": "circlearea",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "circlearea",
+      "target": "spherevol",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "spherevol",
+      "target": "coulomb",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "coulomb",
+      "target": "fourier",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "fourier",
+      "target": "gaussian",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "gaussian",
+      "target": "euleridentity",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "euleridentity",
+      "target": "cauchy",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "cauchy",
+      "target": "zeta",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "zeta",
+      "target": "einstein",
+      "kind": "constant",
+      "label": "π"
+    },
+    {
+      "source": "e",
+      "target": "loggrowth",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "loggrowth",
+      "target": "logistic",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "logistic",
+      "target": "contcompound",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "contcompound",
+      "target": "eulerexp",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "eulerexp",
+      "target": "eulerformula",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "eulerformula",
+      "target": "gaussian",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "gaussian",
+      "target": "arrhenius",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "arrhenius",
+      "target": "euleridentity",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "euleridentity",
+      "target": "primecount",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "primecount",
+      "target": "entropy",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "entropy",
+      "target": "nernst",
+      "kind": "constant",
+      "label": "e"
+    },
+    {
+      "source": "phi",
+      "target": "fib",
+      "kind": "constant",
+      "label": "φ"
+    },
+    {
+      "source": "imag",
+      "target": "eulerformula",
+      "kind": "constant",
+      "label": "i"
+    },
+    {
+      "source": "eulerformula",
+      "target": "euleridentity",
+      "kind": "constant",
+      "label": "i"
+    },
+    {
+      "source": "cauchy",
+      "target": "schrodinger",
+      "kind": "constant",
+      "label": "i"
+    },
+    {
+      "source": "massenergy",
+      "target": "lorentz",
+      "kind": "constant",
+      "label": "c"
+    },
+    {
+      "source": "lorentz",
+      "target": "lightspeed",
+      "kind": "constant",
+      "label": "c"
+    },
+    {
+      "source": "lightspeed",
+      "target": "einstein",
+      "kind": "constant",
+      "label": "c"
+    },
+    {
+      "source": "gravity",
+      "target": "einstein",
+      "kind": "constant",
+      "label": "G"
+    },
+    {
+      "source": "planck",
+      "target": "debroglie",
+      "kind": "constant",
+      "label": "ℏ"
+    },
+    {
+      "source": "debroglie",
+      "target": "uncertainty",
+      "kind": "constant",
+      "label": "ℏ"
+    },
+    {
+      "source": "uncertainty",
+      "target": "schrodinger",
+      "kind": "constant",
+      "label": "ℏ"
+    },
+    {
+      "source": "coulomb",
+      "target": "maxwell",
+      "kind": "constant",
+      "label": "ε₀"
+    },
+    {
+      "source": "maxwell",
+      "target": "lightspeed",
+      "kind": "constant",
+      "label": "ε₀"
+    },
+    {
+      "source": "idealgas",
+      "target": "arrhenius",
+      "kind": "constant",
+      "label": "R"
+    },
+    {
+      "source": "arrhenius",
+      "target": "nernst",
+      "kind": "constant",
+      "label": "R"
+    },
+    {
+      "source": "unity",
+      "target": "duality",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "duality",
+      "target": "trinity",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "trinity",
+      "target": "quaternity",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "quaternity",
+      "target": "phi",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "phi",
+      "target": "sincos",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "sincos",
+      "target": "hardyweinberg",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "hardyweinberg",
+      "target": "euleridentity",
+      "kind": "constant",
+      "label": "1"
+    },
+    {
+      "source": "euleridentity",
+      "target": "lorentz",
+      "kind": "constant",
+      "label": "1"
+    }
+  ],
+  "progression": [
+    {
+      "stage": 0,
+      "count": 1,
+      "avgT": 3.0,
+      "avgO": 0.0,
+      "avgD": 0.0,
+      "domains": [
+        "foundations"
+      ]
+    },
+    {
+      "stage": 1,
+      "count": 4,
+      "avgT": 7.5,
+      "avgO": 1.25,
+      "avgD": 0.0,
+      "domains": [
+        "arithmetic",
+        "foundations"
+      ]
+    },
+    {
+      "stage": 2,
+      "count": 3,
+      "avgT": 8.0,
+      "avgO": 1.67,
+      "avgD": 0.67,
+      "domains": [
+        "arithmetic",
+        "foundations"
+      ]
+    },
+    {
+      "stage": 3,
+      "count": 2,
+      "avgT": 6.0,
+      "avgO": 1.5,
+      "avgD": 1.5,
+      "domains": [
+        "arithmetic"
+      ]
+    },
+    {
+      "stage": 4,
+      "count": 6,
+      "avgT": 8.17,
+      "avgO": 2.17,
+      "avgD": 0.83,
+      "domains": [
+        "algebra",
+        "constants",
+        "geometry"
+      ]
+    },
+    {
+      "stage": 5,
+      "count": 3,
+      "avgT": 14.0,
+      "avgO": 2.67,
+      "avgD": 1.67,
+      "domains": [
+        "geometry"
+      ]
+    },
+    {
+      "stage": 6,
+      "count": 7,
+      "avgT": 13.0,
+      "avgO": 3.57,
+      "avgD": 1.57,
+      "domains": [
+        "algebra",
+        "finance",
+        "geometry",
+        "trig"
+      ]
+    },
+    {
+      "stage": 7,
+      "count": 8,
+      "avgT": 12.88,
+      "avgO": 2.38,
+      "avgD": 1.5,
+      "domains": [
+        "algebra",
+        "calculus",
+        "finance",
+        "mechanics",
+        "thermo",
+        "trig"
+      ]
+    },
+    {
+      "stage": 8,
+      "count": 13,
+      "avgT": 12.77,
+      "avgO": 2.08,
+      "avgD": 1.23,
+      "domains": [
+        "biology",
+        "calculus",
+        "em",
+        "linalg",
+        "mechanics",
+        "numbertheory",
+        "probability",
+        "thermo"
+      ]
+    },
+    {
+      "stage": 9,
+      "count": 11,
+      "avgT": 14.55,
+      "avgO": 2.55,
+      "avgD": 1.36,
+      "domains": [
+        "biology",
+        "calculus",
+        "chemistry",
+        "complex",
+        "linalg",
+        "probability",
+        "quantum",
+        "trig"
+      ]
+    },
+    {
+      "stage": 10,
+      "count": 10,
+      "avgT": 10.8,
+      "avgO": 2.3,
+      "avgD": 1.0,
+      "domains": [
+        "chemistry",
+        "complex",
+        "information",
+        "mechanics",
+        "numbertheory",
+        "quantum",
+        "relativity",
+        "thermo"
+      ]
+    },
+    {
+      "stage": 11,
+      "count": 6,
+      "avgT": 14.5,
+      "avgO": 2.83,
+      "avgD": 0.83,
+      "domains": [
+        "complex",
+        "em",
+        "information",
+        "numbertheory",
+        "quantum"
+      ]
+    },
+    {
+      "stage": 12,
+      "count": 3,
+      "avgT": 16.67,
+      "avgO": 2.67,
+      "avgD": 0.67,
+      "domains": [
+        "finance",
+        "quantum",
+        "relativity"
+      ]
+    }
+  ]
+}
